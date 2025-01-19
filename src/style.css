@@ -200,3 +200,7 @@ body{
         display: block;
     }
 }
+
+.shoppingicon,.bellicon,.usericon,.menuicon{
+    cursor: pointer;
+}

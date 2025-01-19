@@ -1,3 +1,10 @@
+//Icons
+import { MdSearch } from "react-icons/md";
+import { FaShoppingCart } from "react-icons/fa";
+import { FaBell } from "react-icons/fa";
+import { FaUser } from "react-icons/fa";
+import { FaBars } from "react-icons/fa";
+
 function Navbar()
 {
     return(
@@ -8,20 +15,20 @@ function Navbar()
         </div>
 
         <div class="navbar__s2">
-            <i class="fa-solid fa-magnifying-glass" style={{color:" #000000"}}></i>
+            <MdSearch className="Searchicon"></MdSearch>
             <input type="text" placeholder="Search For Anything Here"></input>
         </div>
 
         <div class="navbar__s3">
             <p>Trending Courses</p>
             <p>My Learning</p>
-            <i class="fa-solid fa-cart-shopping" style={{color:" #000000"}}></i>
-            <i class="fa-solid fa-bell" style={{color:" #000000"}}></i>
-            <i class="fa-solid fa-user" style={{color:"#000000"}}></i>
+            <FaShoppingCart className="shoppingicon"></FaShoppingCart>
+            <FaBell className="bellicon"></FaBell>
+            <FaUser className="usericon"></FaUser>
         </div>
 
         <div class="navbar__s4">
-            <i class="fa-solid fa-bars" style={{color:" #000000"}}></i>
+            <FaBars className="menuicon"></FaBars>
         </div>
     </div>
     )
